@@ -1,0 +1,37 @@
+To: tech@nivoda.net
+Subject: API Access Request - Account: shimmy@shimmytime.watch
+
+Hello Nivoda Team,
+
+I would like to request API access for my Nivoda account to integrate diamond search functionality.
+
+Account Details:
+- Email: shimmy@shimmytime.watch
+- Account Status: Active (web platform access confirmed)
+
+Current Issue:
+I have implemented the API integration tools and am ready to test, but I'm receiving "403 Access Denied" errors on all endpoints, including:
+- Staging endpoint with test credentials (testaccount@sample.com)
+- Staging endpoint with my credentials (shimmy@shimmytime.watch)
+- Production endpoint with my credentials
+
+I understand that API access needs to be explicitly enabled for my account.
+
+Use Case:
+I am building a diamond price search tool to:
+- Search for diamonds by carat, color, clarity, cut, shape, and lab-grown status
+- Calculate average pricing for specific diamond specifications (e.g., 4ct lab-grown D VVS1)
+- Compare prices across different criteria
+- Support both programmatic and interactive usage
+
+Request:
+Could you please enable API access for my account (shimmy@shimmytime.watch) for both:
+1. Staging environment (for testing)
+2. Production environment (once testing is complete)
+
+I have the integration code ready and can begin testing immediately once access is enabled.
+
+Thank you for your assistance!
+
+Best regards,
+[Your Name]
