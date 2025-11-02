@@ -59,7 +59,14 @@ class DiamondSearchClient:
         if provider == APIProvider.NIVODA:
             self.username = username or os.getenv('NIVODA_USERNAME')
             self.password = password or os.getenv('NIVODA_PASSWORD')
-            self.endpoint = self.NIVODA_STAGING if use_staging else self.NIVODA_PRODUCTION
+
+            # Check for USE_STAGING env var if use_staging not explicitly set
+            if use_staging or os.getenv('NIVODA_USE_STAGING', '').lower() == 'true':
+                self.endpoint = self.NIVODA_STAGING
+                self.environment = "staging"
+            else:
+                self.endpoint = self.NIVODA_PRODUCTION
+                self.environment = "production"
 
             if not self.username:
                 self.username = input("Enter Nivoda username: ")

@@ -9,6 +9,22 @@ This repository contains diamond price search tools that support multiple API pr
 1. **OpenFacet** - Free, real-time GIA-certified round diamond prices
 2. **Nivoda** - Comprehensive diamond search with advanced filters
 
+## ⚠️ Important: API Access Required
+
+**Both APIs currently require access approval:**
+
+- **Nivoda**: API access must be explicitly enabled by Nivoda support
+  - ✅ Tools are ready and tested
+  - ✅ Staging credentials configured
+  - 📧 **Action needed:** Email tech@nivoda.net to request API access
+  - 📖 **See:** [NIVODA_API_ACCESS_REQUEST.md](NIVODA_API_ACCESS_REQUEST.md) for detailed instructions
+
+- **OpenFacet**: Currently experiencing 403 access errors
+  - May require registration or have temporary restrictions
+  - Contact OpenFacet support for access
+
+**The tools are complete and ready to use once API access is granted. See the API Access Request guide for next steps.**
+
 ## Tools Available
 
 ### 1. Unified Diamond Search Tool (`diamond_search.py`)
